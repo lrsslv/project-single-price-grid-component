@@ -1,0 +1,46 @@
+@media(max-width: 640px){
+    .container {
+        display: grid;
+        grid-template-areas: "introduction"
+                             "info" 
+                             "presentation";
+        grid-template-columns: repeat(1, 1fr);
+        width: 311px;
+    }
+
+    .introduction {
+        padding: 27px 23px 0 23px;
+        border-radius: 4px 4px 0 0;
+    }
+
+    .introduction .title {
+        font-size: 20px;
+    }
+    
+    .introduction .subtitle {
+        font-size: 15px;
+        margin-top: 27px;
+        margin-bottom: 20px;
+    }
+    
+    .introduction p {
+        font-size: 14px;
+        line-height: 1.8;
+        margin-bottom: 33px;
+    }
+
+    .info {
+        border-radius: 0 0 0 0;
+        padding: 24px 23px 0 23px;
+    }
+    
+    .info button {
+        padding: 16px 103px;
+        margin-bottom: 25px;
+    }
+
+    .services {
+        border-radius: 0 0 4px 4px;
+        padding: 24px 23px 23px 23px;
+    }
+}
